@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/touchNums.css">
+</head>
+
+<body onload="initGame()">
+    <div class="level">
+        <p>Choose Your Level</p>
+        <input type="radio" id="Good" value="16" name="level" onclick="createBoard(this.value)" />
+        <label for="Good">Good</label>
+        <input type="radio" id="Expert" value="25" name="level" onclick="createBoard(this.value)" />
+        <label for="Expert">Expert</label>
+        <input type="radio" id="Extreme" value="36" name="level" onclick="createBoard(this.value)" />
+        <label for="Extreme">Extreme</label>
+        <h1 class="timer">0.000</h1>
+        <div class="winnerMsg">
+        </div>
+    </div>
+    <div class="newGame">
+        <button class="resBtn" onclick="restartGame()">Restart game
+        </button>
+    </div>
+    <table>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>

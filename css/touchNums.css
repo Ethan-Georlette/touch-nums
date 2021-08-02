@@ -1,0 +1,43 @@
+body{
+    font-family: cursive;
+    background-image: linear-gradient(grey,yellow);
+}
+.level{
+    border: solid black;
+    border-radius: 5%;
+    margin: 10px;
+    background-image: linear-gradient(grey, yellow);
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black ;
+    width: fit-content;
+    height: fit-content;
+    border: solid black 1px;
+}
+table th{
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    border-radius: 5%;
+    background-image: linear-gradient(rgba(212, 238, 95, 0.548),yellow);
+}
+h1{
+    text-align: center;
+}
+.newGame button{
+    float: right;
+    border: solid balck;
+    border-radius: 10%;
+    margin: 10px;
+    float: right;
+    font-family: cursive;
+    height: 60px;
+    width: 160px;
+    font-size:larger;
+    background-image: linear-gradient(yellow,rgba(0, 0, 0, 0.918));
+}
+
+
